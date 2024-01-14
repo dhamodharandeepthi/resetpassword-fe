@@ -1,6 +1,6 @@
 import { useState } from "react";
 import GetEmail from "../components/GetEmail"
-import { API, AppLink } from "../helpers/API";
+import { API} from "../helpers/API";
 
 const Forgot = () => {
     const [response, setResponse] = useState('');
@@ -13,11 +13,11 @@ const Forgot = () => {
             return
         }
 
-        // React URL for new password update
-        const mailUser = {
-            email: user.email,
-            link: `${AppLink}/reset`
-        }
+        // // React URL for new password update
+        // const mailUser = {
+        //     email: user.email,
+        //     link: `${AppLink}/reset`
+        // }
 
         // validate email and send email
         fetch(URL, {

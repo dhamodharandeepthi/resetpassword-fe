@@ -6,7 +6,6 @@ import NoPage from './pages/NoPage';
 import Forgot from './pages/Forgot';
 import NewPassword from './pages/NewPassword';
 
-
 function App() {
 
   return (
